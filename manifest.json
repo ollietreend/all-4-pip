@@ -1,12 +1,12 @@
 {
   "name": "Picture-in-Picture (PiP) for All 4",
   "description": "Enable Picture-in-Picture (PiP) on the Channel 4 'All 4' player",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "permissions": [],
   "content_scripts": [
     {
-      "matches": ["https://www.channel4.com/*/on-demand/*"],
+      "matches": ["https://www.channel4.com/programmes/*"],
       "js": ["arrive.min.js", "enable-pip.js"]
     }
   ],
